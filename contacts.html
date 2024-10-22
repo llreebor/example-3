@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700;800&family=Golos+Text:wght@400;600;700&family=Inconsolata:wght@500&family=Roboto+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body id='contacts-page'>
+    <!-- Scroll Top Button -->
+    <a href='#header' class='scroll__top' data-scroll>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M11.375 18C11.375 18.3452 11.6548 18.625 12 18.625C12.3452 18.625 12.625 18.3452 12.625 18H11.375ZM12.4419 5.55806C12.1979 5.31398 11.8021 5.31398 11.5581 5.55806L7.58058 9.53553C7.3365 9.77961 7.3365 10.1753 7.58058 10.4194C7.82466 10.6635 8.22039 10.6635 8.46447 10.4194L12 6.88388L15.5355 10.4194C15.7796 10.6635 16.1753 10.6635 16.4194 10.4194C16.6635 10.1753 16.6635 9.77961 16.4194 9.53553L12.4419 5.55806ZM12.625 18L12.625 6H11.375L11.375 18H12.625Z"
+                fill="#0D0D0D" />
+        </svg>
+    </a>
+    <!-- Header -->
+    <header id='header'>
+        <div class="header">
+            <div class="header__item">
+                <a href="./index.html" class="logo">
+                    <span class='logo__boot'>
+                        <svg width="120" height="44" viewBox="0 0 120 44" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.6577 28.3989V28.6245C18.6577 30.207 17.3699 31.498 15.7912 31.498H2.86641C1.28781 31.498 0 30.207 0 28.6245V28.3989C0 26.8164 1.28781 25.5254 2.86641 25.5254H15.7895C17.3681 25.5254 18.6559 26.8164 18.6559 28.3989H18.6577Z"
+                                fill="#0072FE" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M33.1439 28.5116C33.1439 36.5336 26.6582 43.0355 18.6561 43.0355C14.9986 43.0355 11.658 41.6768 9.11003 39.4366C8.49209 38.8935 8.16148 38.1942 8.13551 37.3699C8.10782 36.5457 8.39169 35.8273 8.97328 35.2443L9.13253 35.0846C10.2005 34.014 11.9089 33.955 13.0462 34.9528C14.5451 36.2663 16.508 37.0628 18.6561 37.0628C23.3659 37.0628 27.1844 33.2349 27.1844 28.5133C27.1844 23.7918 23.3659 19.9639 18.6561 19.9639C16.508 19.9639 14.5451 20.7603 13.0462 22.0739C11.9089 23.0717 10.2005 23.0144 9.13253 21.942L8.97328 21.7824C8.39169 21.1993 8.10782 20.481 8.13551 19.6567C8.16321 18.8325 8.49209 18.1332 9.11003 17.5901C11.6597 15.3499 15.0004 13.9912 18.6561 13.9912C26.6582 13.9912 33.1439 20.4931 33.1439 28.5151V28.5116Z"
+                                fill="#0072FE" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.0123 0H11.2373C12.8159 0 14.1037 1.29101 14.1037 2.87354V19.9083C14.1037 21.4908 12.8159 22.7818 11.2373 22.7818H11.0123C9.43368 22.7818 8.14587 21.4908 8.14587 19.9083V2.87354C8.14587 1.29101 9.43368 0 11.0123 0Z"
+                                fill="#0072FE" />
+                            <path class='path' fill-rule="evenodd" clip-rule="evenodd"
+                                d="M51.9055 13.7656C59.937 13.7656 66.447 20.2918 66.447 28.3433C66.447 36.3947 59.937 42.9209 51.9055 42.9209C43.874 42.9209 37.364 36.3947 37.364 28.3433C37.364 20.2918 43.874 13.7656 51.9055 13.7656ZM51.9055 20.5018C56.2259 20.5018 59.7276 24.0121 59.7276 28.3433C59.7276 32.6744 56.2259 36.1848 51.9055 36.1848C47.5851 36.1848 44.0835 32.6744 44.0835 28.3433C44.0835 24.0121 47.5851 20.5018 51.9055 20.5018Z"
+                                fill="white" />
+                            <path class='path' fill-rule="evenodd" clip-rule="evenodd"
+                                d="M85.1098 13.7656C93.1413 13.7656 99.6513 20.2918 99.6513 28.3433C99.6513 36.3947 93.1413 42.9209 85.1098 42.9209C77.0783 42.9209 70.5682 36.3947 70.5682 28.3433C70.5682 20.2918 77.0783 13.7656 85.1098 13.7656ZM85.1098 20.5018C89.4301 20.5018 92.9318 24.0121 92.9318 28.3433C92.9318 32.6744 89.4301 36.1848 85.1098 36.1848C80.7894 36.1848 77.2877 32.6744 77.2877 28.3433C77.2877 24.0121 80.7894 20.5018 85.1098 20.5018Z"
+                                fill="white" />
+                            <path class='path' fill-rule="evenodd" clip-rule="evenodd"
+                                d="M117.845 42.4593C117.822 42.4645 117.802 42.4715 117.781 42.4767C116.609 42.7751 115.375 42.9244 114.08 42.9244C110.72 42.9244 108.122 42.0654 106.284 40.3458C104.446 38.6262 103.528 36.0997 103.528 32.7681V10.7983C103.528 9.21581 104.816 7.9248 106.395 7.9248H107.785C109.363 7.9248 110.651 9.21581 110.651 10.7983V14.8189H115.885C117.464 14.8189 118.752 16.1099 118.752 17.6924V18.2598C118.752 19.8424 117.464 21.1334 115.885 21.1334H110.651V32.6587C110.651 33.8508 110.957 34.7723 111.57 35.4212C112.183 36.0702 113.048 36.3947 114.168 36.3947C114.766 36.3947 115.55 36.3201 116.311 36.1708C117.692 35.8984 119.039 36.648 119.541 37.9668L119.802 38.6522C120.104 39.4435 120.06 40.2417 119.673 40.993C119.285 41.7461 118.664 42.2441 117.847 42.4576L117.845 42.4593Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                    <span class='logo__hardware'>
+                        <svg width="145" height="12" viewBox="0 0 145 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.3733 0.00220577V11.9978H8.20527V6.85651H2.168V11.9978H0V0.00220577H2.168V4.95561H8.20527V0.00220577H10.3733ZM27.0097 9.22159H21.1746L20.0239 11.9978H17.7892L23.0414 0.00220577H25.1772L30.4466 11.9978H28.1797L27.0118 9.22159H27.0097ZM26.2934 7.4732L24.0932 2.23025L21.908 7.4732H26.2934ZM45.4957 11.9978L43.1105 8.48333C43.0094 8.49439 42.861 8.50101 42.661 8.50101H40.0263V11.9978H37.8583V0.00220577H42.661C43.6718 0.00220577 44.5537 0.174617 45.3043 0.517222C46.0549 0.859826 46.6292 1.35052 47.0292 1.99152C47.4293 2.63032 47.6293 3.39068 47.6293 4.2704C47.6293 5.15012 47.4142 5.95027 46.9862 6.60232C46.5582 7.25217 45.9431 7.73844 45.143 8.05894L47.8272 12H45.4914L45.4957 11.9978ZM45.4462 4.26819C45.4462 3.50341 45.2011 2.91324 44.7128 2.50433C44.2246 2.0932 43.5062 1.88764 42.562 1.88764H40.0284V6.66863H42.562C43.5062 6.66863 44.2246 6.46086 44.7128 6.0431C45.2011 5.62535 45.4462 5.03518 45.4462 4.26819ZM55.9787 0H61.0804C62.3257 0 63.4312 0.247558 64.399 0.744888C65.3669 1.24222 66.1175 1.94511 66.6509 2.85135C67.1843 3.75981 67.451 4.80752 67.451 5.99669C67.451 7.18586 67.1843 8.23356 66.6509 9.14202C66.1175 10.0505 65.3669 10.7534 64.399 11.2507C63.4312 11.748 62.3257 11.9956 61.0804 11.9956H55.9787V0ZM60.9814 10.1102C61.8374 10.1102 62.5902 9.94216 63.2419 9.60398C63.8914 9.26801 64.3926 8.78615 64.7432 8.16504C65.0937 7.54172 65.268 6.81894 65.268 5.99669C65.268 5.17444 65.0937 4.45165 64.7432 3.82833C64.3926 3.20501 63.8914 2.72536 63.2419 2.38939C62.5902 2.05342 61.8374 1.88322 60.9814 1.88322H58.1467V10.1079H60.9814V10.1102ZM92.3744 0L88.5051 11.9956H86.2038L83.3195 3.1188L80.3837 11.9956H78.0652L74.1959 0H76.4478L79.3492 9.11771L82.3668 0H84.367L87.3179 9.16854L90.3032 0H92.3722H92.3744ZM107.275 9.21938H101.44L100.289 11.9956H98.0546L103.307 0H105.443L110.712 11.9956H108.445L107.277 9.21938H107.275ZM106.559 7.47099L104.359 2.22803L102.173 7.47099H106.559ZM125.761 11.9956L123.376 8.48112C123.275 8.49217 123.126 8.4988 122.926 8.4988H120.292V11.9956H118.124V0H122.926C123.937 0 124.819 0.172405 125.57 0.515009C126.32 0.857614 126.895 1.34832 127.295 1.98932C127.695 2.62811 127.895 3.38847 127.895 4.26819C127.895 5.14791 127.68 5.94806 127.252 6.60011C126.824 7.24995 126.211 7.73623 125.408 8.05673L128.093 11.9978H125.757L125.761 11.9956ZM125.712 4.26598C125.712 3.5012 125.466 2.91103 124.978 2.50211C124.49 2.09099 123.772 1.88543 122.827 1.88543H120.294V6.66642H122.827C123.772 6.66642 124.49 6.45865 124.978 6.04089C125.466 5.62313 125.712 5.03297 125.712 4.26598ZM145 10.1278V11.9956H136.244V0H144.766V1.86774H138.412V4.98656H144.049V6.82115H138.412V10.1278H145Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <div class="header__item">
+                <nav class='nav'>
+                    <!-- Desktop Menu -->
+                    <ul class="menu">
+                        <li class='with__submenu'>
+                            <div class="menu__link">
+                                Products
+                                <span>+</span>
+                            </div>
+
+                            <ul class="submenu">
+                                <li><a href="#" class="submenu__link">Product 1 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 2 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 3 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 5 Name</a></li>
+                                <li><a href="#" class="submenu__link">All Products</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./index.html#specs" class="menu__link" data-scroll>Tech Specs</a></li>
+                        <li><a href="#" class="menu__link">Contact</a></li>
+                        <li>
+                            <a href="#" class="menu__link block__btn block__btn-5 btn__green">
+                                <span class="block__btn-text">
+                                    BUY NOW $799
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+                    <!-- Mobile Menu -->
+                    <ul class="mobile__menu">
+                        <li class='mobile__icon'>
+                            <a href="./index.html">
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_6_8706)">
+                                        <path
+                                            d="M28 21.69L33 26.19V34H31V28H25V34H23V26.19L28 21.69ZM28 19L18 28H21V36H27V30H29V36H35V28H38L28 19Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_6_8706">
+                                            <rect width="24" height="24" fill="white" transform="translate(16 16)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></a>
+
+                        </li>
+                        <li class='with__submenu with__submenu-mob'>
+                            <div class="mobile__menu-link">
+                                Products
+                                <div class="with__submenu-icon">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <ul class="submenu submenu__mobile">
+                                <li><a href="#" class="submenu__link">Product 1 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 2 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 3 Name</a></li>
+                                <li><a href="#" class="submenu__link">Product 5 Name</a></li>
+                                <li><a href="#" class="submenu__link">All Products</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="./index.html#specs" class="mobile__menu-link" data-scroll>Tech Specs</a></li>
+                        <li><a href="#" class="mobile__menu-link">Contact</a></li>
+                        <li><a href="#" class="mobile__menu-link"></a></li>
+                        <li><a href="#" class="mobile__menu-link"></a></li>
+                        <li>
+                            <a href="#" class="mobile__menu-link block__btn block__btn-5 btn__green">
+                                <span class="block__btn-text">
+                                    BUY NOW $799
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+
+            </div>
+
+            <button class="burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contacts Form -->
+        <section class='section__contacts bg__black'>
+            <div class="container">
+                <div class="contacts">
+                    <div class="contacts__item left__item">
+                        <p class="section__text contacts__text">Contact our team ///</p>
+                        <h1 class="section__title contacts__title">Let’s get in touch today.</h1>
+                    </div>
+                    <div class="contacts__item right__item">
+                        <span class='contacts__top-left'>
+                            <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M47.9603 1H1V48.5975" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+                        <span class='contacts__top-right'>
+                            <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.0397073 1H47V48.5975" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+                        <span class='contacts__bottom-left'>
+                            <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M47.9603 48H1V0.402549" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+                        <span class='contacts__bottom-right '>
+                            <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.0397073 48H47V0.402547" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+
+                        <form class='contacts__form'>
+                            <div class="contacts__inputs">
+                                <label for="name" class='contacts__label'>
+                                    <input class='contacts__input' type="text" placeholder='Name' name='name'>
+                                    <span>Name</span>
+                                </label>
+
+                                <label for="company" class='contacts__label'>
+                                    <input class='contacts__input' type="text" name='company' placeholder='Company'>
+                                    <span>Company</span>
+                                </label>
+                            </div>
+
+                            <div class="contacts__inputs">
+                                <label for="email" class='contacts__label'>
+                                    <input class='contacts__input' type="email" name='email' placeholder='Email'>
+                                    <span>Email</span>
+                                </label>
+
+                                <label for="phone" class='contacts__label'>
+                                    <input class='contacts__input' type="text" name='phone' placeholder='Phone'>
+                                    <span>Phone</span>
+                                </label>
+                            </div>
+
+                            <label for="details" class='contacts__label'>
+                                <textarea name="details" class='contacts__textarea'
+                                    placeholder='Inquiry Details'></textarea>
+                                <span>Inquiry Details</span>
+                            </label>
+
+
+
+                            <button type='submit' class="block__btn block__btn-3 btn__white contacts__btn">
+                                <span class="block__btn-text">
+                                    SUBMIT
+                                </span>
+                                <span class="block__btn-arrow">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6 11.375C5.65482 11.375 5.375 11.6548 5.375 12C5.375 12.3452 5.65482 12.625 6 12.625V11.375ZM18.4419 12.4419C18.686 12.1979 18.686 11.8021 18.4419 11.5581L14.4645 7.58058C14.2204 7.3365 13.8247 7.3365 13.5806 7.58058C13.3365 7.82466 13.3365 8.22039 13.5806 8.46447L17.1161 12L13.5806 15.5355C13.3365 15.7796 13.3365 16.1753 13.5806 16.4194C13.8247 16.6635 14.2204 16.6635 14.4645 16.4194L18.4419 12.4419ZM6 12.625L18 12.625V11.375L6 11.375V12.625Z"
+                                            fill="black" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class='scroll'>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item left__item">
+                    <ul class="footer__list">
+                        <li class='footer__title'>Products</li>
+                        <li><a href="" class="footer__link">Product 1</a></li>
+                        <li><a href="" class="footer__link">Product 2</a></li>
+                        <li><a href="" class="footer__link">Product 3</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class='footer__title'>Social</li>
+                        <li><a href="" class="footer__link">Facebook</a></li>
+                        <li><a href="" class="footer__link">Instagram</a></li>
+                        <li><a href="" class="footer__link">LinkedIn</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class='footer__title'>Company</li>
+                        <li><a href="" class="footer__link">Contact Us</a></li>
+                        <li><a href="" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="" class="footer__link">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item right__item">
+                    <a href="#" class="footer__logo">
+                        <svg width="184" height="89" viewBox="0 0 184 89" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_6_2684)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M28.4317 43.2757V43.6195C28.4317 46.031 26.4692 47.9983 24.0637 47.9983H4.36801C1.96244 47.9983 0 46.031 0 43.6195V43.2757C0 40.8642 1.96244 38.8969 4.36801 38.8969H24.061C26.4666 38.8969 28.429 40.8642 28.429 43.2757H28.4317Z"
+                                    fill="#0072FE" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M50.5065 43.4476C50.5065 55.6719 40.6231 65.5799 28.429 65.5799C22.8556 65.5799 17.7649 63.5095 13.8822 60.0958C12.9405 59.2681 12.4367 58.2025 12.3972 56.9465C12.355 55.6905 12.7875 54.5957 13.6738 53.7073L13.9165 53.464C15.5439 51.8325 18.1473 51.7426 19.8803 53.263C22.1645 55.2647 25.1557 56.4784 28.429 56.4784C35.6062 56.4784 41.4249 50.6452 41.4249 43.4502C41.4249 36.2553 35.6062 30.422 28.429 30.422C25.1557 30.422 22.1645 31.6358 19.8803 33.6375C18.1473 35.1579 15.5439 35.0706 13.9165 33.4365L13.6738 33.1932C12.7875 32.3048 12.355 31.21 12.3972 29.954C12.4394 28.698 12.9405 27.6324 13.8822 26.8047C17.7675 23.391 22.8582 21.3206 28.429 21.3206C40.6231 21.3206 50.5065 31.2285 50.5065 43.4529V43.4476Z"
+                                    fill="#0072FE" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.781 0H17.1239C19.5295 0 21.4919 1.96732 21.4919 4.37887V30.3374C21.4919 32.749 19.5295 34.7163 17.1239 34.7163H16.781C14.3754 34.7163 12.413 32.749 12.413 30.3374V4.37887C12.413 1.96732 14.3754 0 16.781 0Z"
+                                    fill="#0072FE" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M79.0967 20.9768C91.3356 20.9768 101.256 30.9218 101.256 43.1911C101.256 55.4604 91.3356 65.4054 79.0967 65.4054C66.8579 65.4054 56.9375 55.4604 56.9375 43.1911C56.9375 30.9218 66.8579 20.9768 79.0967 20.9768ZM79.0967 31.2418C85.6804 31.2418 91.0165 36.5911 91.0165 43.1911C91.0165 49.7911 85.6804 55.1405 79.0967 55.1405C72.5131 55.1405 67.177 49.7911 67.177 43.1911C67.177 36.5911 72.5131 31.2418 79.0967 31.2418Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M129.695 20.9768C141.934 20.9768 151.854 30.9218 151.854 43.1911C151.854 55.4604 141.934 65.4054 129.695 65.4054C117.456 65.4054 107.536 55.4604 107.536 43.1911C107.536 30.9218 117.456 20.9768 129.695 20.9768ZM129.695 31.2418C136.279 31.2418 141.615 36.5911 141.615 43.1911C141.615 49.7911 136.279 55.1405 129.695 55.1405C123.112 55.1405 117.775 49.7911 117.775 43.1911C117.775 36.5911 123.112 31.2418 129.695 31.2418Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M179.579 64.7021C179.545 64.71 179.513 64.7206 179.482 64.7285C177.696 65.1833 175.815 65.4107 173.842 65.4107C168.722 65.4107 164.763 64.1018 161.962 61.4814C159.161 58.8609 157.763 55.0109 157.763 49.934V16.4552C157.763 14.0436 159.725 12.0763 162.131 12.0763H164.249C166.655 12.0763 168.617 14.0436 168.617 16.4552V22.5819H176.593C178.999 22.5819 180.961 24.5492 180.961 26.9608V27.8254C180.961 30.237 178.999 32.2043 176.593 32.2043H168.617V49.7674C168.617 51.584 169.084 52.9881 170.018 53.977C170.951 54.966 172.27 55.4604 173.977 55.4604C174.887 55.4604 176.082 55.3467 177.242 55.1193C179.347 54.7042 181.399 55.8465 182.164 57.8561L182.562 58.9006C183.021 60.1064 182.955 61.3227 182.365 62.4677C181.774 63.6153 180.827 64.3742 179.582 64.6994L179.579 64.7021Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.8993 74.647V88.9974H16.2405V82.8469H8.83653V88.9974H6.17773V74.647H8.83653V80.5728H16.2405V74.647H18.8993ZM39.3018 85.6762H32.1458L30.7346 88.9974H27.9941L34.4353 74.647H37.0545L43.5169 88.9974H40.7368L39.3045 85.6762H39.3018ZM38.4235 83.5846L35.7251 77.3125L33.0452 83.5846H38.4235ZM61.9728 88.9974L59.0476 84.793C58.9236 84.8062 58.7416 84.8142 58.4963 84.8142H55.2652V88.9974H52.6064V74.647H58.4963C59.736 74.647 60.8175 74.8533 61.738 75.2632C62.6586 75.673 63.3629 76.26 63.8535 77.0269C64.3441 77.7911 64.5894 78.7007 64.5894 79.7531C64.5894 80.8055 64.3256 81.7627 63.8007 82.5428C63.2758 83.3202 62.5214 83.9019 61.5402 84.2853L64.8321 89H61.9675L61.9728 88.9974ZM61.9121 79.7504C61.9121 78.8355 61.6114 78.1295 61.0127 77.6403C60.4139 77.1485 59.5329 76.9026 58.375 76.9026H55.2678V82.6221H58.375C59.5329 82.6221 60.4139 82.3735 61.0127 81.8738C61.6114 81.374 61.9121 80.668 61.9121 79.7504ZM74.8289 74.6444H81.0855C82.6127 74.6444 83.9685 74.9406 85.1555 75.5355C86.3424 76.1305 87.263 76.9713 87.9171 78.0555C88.5713 79.1423 88.8983 80.3956 88.8983 81.8182C88.8983 83.2409 88.5713 84.4942 87.9171 85.581C87.263 86.6678 86.3424 87.5087 85.1555 88.1036C83.9685 88.6986 82.6127 88.9947 81.0855 88.9947H74.8289V74.6444ZM80.9642 86.7392C82.014 86.7392 82.9372 86.5382 83.7364 86.1336C84.533 85.7317 85.1475 85.1553 85.5775 84.4123C86.0074 83.6666 86.2211 82.8019 86.2211 81.8182C86.2211 80.8346 86.0074 79.9699 85.5775 79.2242C85.1475 78.4786 84.533 77.9048 83.7364 77.5028C82.9372 77.1009 82.014 76.8973 80.9642 76.8973H77.4877V86.7365H80.9642V86.7392ZM119.464 74.6444L114.719 88.9947H111.896L108.359 78.3754L104.759 88.9947H101.915L97.1701 74.6444H99.9318L103.49 85.5519L107.191 74.6444H109.644L113.263 85.6127L116.924 74.6444H119.461H119.464ZM137.738 85.6736H130.582L129.171 88.9947H126.43L132.871 74.6444H135.49L141.953 88.9947H139.173L137.74 85.6736H137.738ZM136.859 83.582L134.161 77.3098L131.481 83.582H136.859ZM160.409 88.9947L157.484 84.7904C157.36 84.8036 157.178 84.8115 156.932 84.8115H153.701V88.9947H151.042V74.6444H156.932C158.172 74.6444 159.253 74.8507 160.174 75.2605C161.095 75.6704 161.799 76.2574 162.289 77.0242C162.78 77.7884 163.025 78.698 163.025 79.7504C163.025 80.8029 162.762 81.7601 162.237 82.5401C161.712 83.3175 160.96 83.8993 159.976 84.2827L163.268 88.9974H160.403L160.409 88.9947ZM160.348 79.7478C160.348 78.8329 160.047 78.1269 159.449 77.6377C158.85 77.1459 157.969 76.9 156.811 76.9H153.704V82.6195H156.811C157.969 82.6195 158.85 82.3709 159.449 81.8711C160.047 81.3714 160.348 80.6654 160.348 79.7478ZM184.003 86.7603V88.9947H173.265V74.6444H183.715V76.8788H175.924V80.6098H182.837V82.8045H175.924V86.7603H184.003Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_6_2684">
+                                    <rect width="184" height="89" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </a>
+                    <p class="footer__copy">© 2023 Boot Hardware</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/smooth-scroll.min(lib).js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
